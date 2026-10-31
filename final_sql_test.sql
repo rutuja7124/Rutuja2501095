@@ -42,8 +42,10 @@ values
 
 -- 3.
 alter table employees add column email varchar(50) not null;
+
 -- 4.
 alter table employees add column status varchar(50) default 'active';
+
 -- 5
 update employees set status='inactive' where employee_id=2;
 
